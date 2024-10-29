@@ -1,1 +1,1 @@
-aws eks update-kubeconfig --region us-east-1 --name eks-project-3
+aws eks update-kubeconfig --region us-east-1 --name udacity-eks-prj3
