@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: checkly123123/udagram-frontend:v2
+      - image: checkly123123/udagram-frontend:v4
         name: frontend
         imagePullPolicy: Always          
         ports:
