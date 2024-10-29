@@ -1,1 +1,1 @@
-aws eks --region us-west-2 update-kubeconfig --name uda-prj3
+aws eks update-kubeconfig --region us-east-1 --name eks-project-3
