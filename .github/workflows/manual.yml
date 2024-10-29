@@ -31,14 +31,8 @@ jobs:
 
       - name: Build and push Docker images
         run: |
-          # docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-api-feed:v2 ./udagram-api-feed
-          # docker push ${{ secrets.DOCKER_USERNAME }}/udagram-api-feed:v2
 
-          # docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-api-user:v2 ./udagram-api-user
-          # docker push ${{ secrets.DOCKER_USERNAME }}/udagram-api-user:v2
 
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v3 ./udagram-frontend
-          docker push ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v3
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v4 ./udagram-frontend
+          docker push ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v4
 
-          # docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy:v2 ./udagram-reverseproxy
-          # docker push ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy:v2
