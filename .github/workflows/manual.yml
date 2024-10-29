@@ -38,7 +38,7 @@ jobs:
           # docker push ${{ secrets.DOCKER_USERNAME }}/udagram-api-user:v2
 
           docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v3 ./udagram-frontend
-          docker push ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v2
+          docker push ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v3
 
           # docker build -t ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy:v2 ./udagram-reverseproxy
           # docker push ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy:v2
