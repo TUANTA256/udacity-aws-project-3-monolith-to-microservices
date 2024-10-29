@@ -16,7 +16,7 @@ spec:
       name: backend-user
     spec:
       containers:
-      - image: checkly123123/udagram-reverseproxy:v1
+      - image: checkly123123/udagram-reverseproxy:v2
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
